@@ -36,6 +36,9 @@
             return marker;
         }
     }).addTo(mymap);
+	        L.geoJson(faults, {
+    interactive: false
+    }).addTo(mymap);
   });
 	</script>
 </body>
